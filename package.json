@@ -15,7 +15,7 @@
     "prettier": "npx prettier --config .prettierrc.js -w ./src/**/*.ts",
     "prettier-check": "npx prettier --config .prettierrc.js ./src/**/*.ts -l",
     "check-ts": "tsc --project ./tsconfig.json --noEmit",
-    "publish": "npm publish dist -- "
+    "publish": "yarn build ; npm publish dist -- "
   },
   "dependencies": {
     "@types/argparse": "^2.0.5",
