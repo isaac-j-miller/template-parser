@@ -496,6 +496,11 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@types/argparse@^2.0.5":
+  version "2.0.5"
+  resolved "https://artifacts.prd.costargroup.com/artifactory/api/npm/csgp-npm/@types/argparse/-/argparse-2.0.5.tgz#5192f160931442a32c1c23e9480fff3f8d7cd0e4"
+  integrity sha1-UZLxYJMUQqMsHCPpSA//P4180OQ=
+
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.14"
   resolved "https://artifacts.prd.costargroup.com/artifactory/api/npm/csgp-npm/@types/babel__core/-/babel__core-7.1.14.tgz#faaeefc4185ec71c389f4501ee5ec84b170cc402"
@@ -681,6 +686,11 @@ argparse@^1.0.7:
   integrity sha1-vNZ5HqWuCXJeF+WtmIE0zUCz2RE=
   dependencies:
     sprintf-js "~1.0.2"
+
+argparse@^2.0.1:
+  version "2.0.1"
+  resolved "https://artifacts.prd.costargroup.com/artifactory/api/npm/csgp-npm/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
+  integrity sha1-JG9Q88p4oyQPbJl+ipvR6sSeSzg=
 
 arr-diff@^4.0.0:
   version "4.0.0"

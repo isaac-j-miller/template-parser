@@ -29,7 +29,7 @@
       "outDir": "./dist",
       "types": ["node", "jest"],
     },
-    "include": ["src/index.ts"],
+    "include": ["src/index.ts", "src/cli.ts"],
     "exclude": ["**/dist/**"]
   }
   
