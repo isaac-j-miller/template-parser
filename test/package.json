@@ -1,0 +1,15 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test consumer",
+  "main": "index.js",
+  "scripts": {
+    "test-cli": "npx template-parser-cli testfile.txt -o testout.txt -v x=2 y=foo withSpaces=with%20space ; cat testout.txt",
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "text-template-parser": "^1.0.2"
+  }
+}
