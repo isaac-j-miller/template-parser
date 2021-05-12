@@ -1,0 +1,25 @@
+{
+  "name": "template-parser",
+  "version": "1.0.0",
+  "description": "Lightweight template parser",
+  "main": "index.js",
+  "author": "Isaac Miller",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json",
+    "test": "npx jest --config ./jest.config.js",
+    "prettier": "npx prettier --config .prettierrc.js -w ./src/**/*.ts",
+    "prettier-check": "npx prettier --config .prettierrc.js ./src/**/*.ts -l",
+    "check-ts": "tsc --project ./tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@types/node": "^15.0.2",
+    "node": "^16.1.0",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "@types/jest": "^26.0.23"
+  }
+}
